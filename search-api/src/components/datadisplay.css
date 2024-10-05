@@ -1,0 +1,47 @@
+.youtube-style {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-around; /* Distributes items evenly */
+}
+
+
+.academic-papers {
+    padding: 20px; /* Add some padding around the section */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .academic-papers h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    color: #333; /* Dark color for the text */
+    margin-bottom: 15px; /* Space below the heading */
+  }
+  
+  .academic-papers ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .academic-papers li {
+    margin-bottom: 15px; /* Space between list items */
+    border-bottom: 1px solid #ddd; /* Bottom border for separation */
+    padding: 10px 0; /* Padding for the list item */
+  }
+  
+  .academic-papers a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+    font-weight: bold; /* Make link text bold */
+  }
+  
+  .academic-papers a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker color on hover */
+  }
+  
+  .academic-papers p {
+    color: #555; /* Lighter color for the publication date */
+    margin: 5px 0 0; /* Margin for spacing */
+  }
+  
