@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navigationbar = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [contentType, setContentType] = useState('all'); // Default to 'all'
+  const [contentType, setContentType] = useState('all'); // Setting content type for fillter 
 
   const handleSearchClick = () => {
     // Pass the search term and selected content type to the parent

@@ -65,7 +65,6 @@ app.get('/articles', async (req, res) => {
       title: item.title,
       link: item.link,
       snippet: item.snippet,
-      // imageUrl: data.items[0].pagemap.cse_image[0].src,
     }));
 
     res.json(articles);

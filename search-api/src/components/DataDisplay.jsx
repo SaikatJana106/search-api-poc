@@ -5,14 +5,16 @@ import Card from 'react-bootstrap/Card';
 import Spinner from 'react-bootstrap/Spinner';
 import './datadisplay.css';
 
+// searchFilters  props recived from navigationbar in app.jsx
 const DataDisplay = ({ searchFilters }) => {
-  const { searchTerm, contentType } = searchFilters;
-
+  const { searchTerm, contentType } = searchFilters; 
   const [videos, setVideos] = useState([]);
   const [articles, setArticles] = useState([]);
   const [papers, setPapers] = useState([]);
   const [loading, setLoading] = useState(false);
 
+
+// Fetching apis using axios
   const fetchData = async () => {
     setLoading(true);
     try {
@@ -48,6 +50,7 @@ const DataDisplay = ({ searchFilters }) => {
       fetchData();
     }
   }, [searchTerm, contentType]);
+
 
   return (
     <div>
